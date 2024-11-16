@@ -130,7 +130,7 @@ Using the previous database, search for similar elements for a given element by 
 The coefficients `A` and `B` are saved in `hash_coefficients.txt` and are used for the `search_lsh()` function:
 
 <p align="center">
-  <img src="ex5.png" alt="Example 5: " width="500">
+  <img src="ex5.png" alt="Example 5: " width="600">
   <br>
   <em>Example 5: A & B Coefficients</em>
 </p>
