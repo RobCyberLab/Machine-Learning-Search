@@ -162,27 +162,23 @@ Calculate the average number of calls to the distance calculation function for t
 
 #### 1. Inverted Index:
 - **Number of students per task:** approximately 205 (from s0001 to s0205)  
-- **Number of possible combinations of 2 students per task:**  
-  \( 205 \times (205 - 1) / 2 = 20,910 \)  
+- **Number of possible combinations of 2 students per task:** \( 205 \times (205 - 1) / 2 = 20,910 \)  
 - **Number of tasks:** approximately 10  
 - **Total number of calls:** \( 20,910 \times 10 = 209,100 \)  
 - **Average number of calls:** \( 209,100 / 10 = 20,910 \)  
 
 Thus, the average number of calls for the inverted index is approximately **20,910**.
+- **Inverted Index**: Displays more similar cases between documents.
 
 #### 2. Locality-Sensitive Hashing (LSH):
 - **Number of bands:** 30  
 - **Number of entries:** 946  
 - **Number of N-grams per cell:** 5  
 - **Total number of searches:** \( 30 \times 946 = 28,380 \)  
-- **Total number of calls to the distance calculation function:**  
-  \( 28,380 \times 5 = 141,900 \)  
-- **Number of tasks (searches):** \( 141,900 / 30 = 4,730 \)  
+- **Total number of calls to the distance calculation function:** \( 28,380 \times 5 = 141,900 \)  
+**Number of tasks (searches):** \( 141,900 / 30 = 4,730 \)  
 
 Thus, the average number of calls to the distance calculation function for the LSH algorithm is approximately **4,730**.
-
-
-- **Inverted Index**: Displays more similar cases between documents.
-- **LSH**: Might miss some similarities, as it's more restrictive.
+**LSH**: Might miss some similarities, as it's more restrictive.
 
 ---
