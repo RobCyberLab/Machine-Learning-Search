@@ -118,3 +118,5 @@ The cases of similarity with a score of 1 are handled. It is observed that for t
 ### Test Results 📊
 - **Inverted Index**: Displays more similar cases between documents.
 - **LSH**: Might miss some similarities, as it's more restrictive.
+
+---
