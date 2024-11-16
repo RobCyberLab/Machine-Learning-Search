@@ -157,7 +157,7 @@ The cases of similarity with a score of 1 are handled. It is observed that for t
 
 ---
 
-### Test Results 📊
+## Test Results 📊
 
 Calculate the average number of calls to the distance calculation function for the two search methods.
 
