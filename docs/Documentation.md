@@ -1,6 +1,6 @@
-# Project Instructions 🧪
+# Project Instructions🧪
 
-## Table of Contents 📚
+## Table of Contents📚
 
 1. [Introduction](#introduction)
 2. [Familiarization with Map-Reduce](#familiarization-with-map-reduce-)
@@ -12,7 +12,7 @@
 
 ---
 
-## Introduction 📖
+## Introduction📖
 
 **Advanced Search Techniques**  
 In this laboratory, we will use the database `features.db`, created in the previous laboratory, to search for similar elements using the techniques of inverted index and locality-sensitive hashing (LSH).
@@ -25,7 +25,7 @@ In this laboratory, we will use the database `features.db`, created in the previ
 
 ---
 
-## Familiarization with Map-Reduce 🔍
+## Familiarization with Map-Reduce🔍
 
 ### Problem:
 Familiarize yourself with the Map-Reduce framework: Study the framework provided in the `dummyMapReduce.py` library and the example for counting words. Modify the given example so that the map method counts the occurrences of each word in the document and calls the emit() method only once for each word.
@@ -44,7 +44,7 @@ The output will be a file containing the word counts for each document.
 
 ---
 
-## Construction of the Inverted Index 🔄
+## Construction of the Inverted Index🔄
 
 ### Problem:
 Using the previous framework, build the `inverted.db` database that contains the inverted index for the given collection.
@@ -69,7 +69,7 @@ The `inverted.db` database will contain entries showing which documents contain 
 
 ---
 
-## Search in the Inverted Index 🔍
+## Search in the Inverted Index🔍
 
 ### Problem:
 Implement the `search_inv()` function to search for similar elements using the inverted index.
@@ -93,7 +93,7 @@ The output will show the documents containing the searched n-grams.
 
 ---
 
-## Construction of Groups Based on LSH 🏷️
+## Construction of Groups Based on LSH🏷️
 
 ### Problem:
 Create the `lsh.db` database, which contains a table with the same number of rows as `features.db`, and one column for each hash band (you can use the constants `b = 30` and `r = 5`).
@@ -122,7 +122,7 @@ The table will contain as many entries as there are files. Each band will have 9
 
 ---
 
-## Search Based on LSH 🔍
+## Search Based on LSH🔍
 
 ### Problem:
 Using the previous database, search for similar elements for a given element by implementing the `search_lsh()` function. Compare the results with those obtained using the inverted index.
@@ -157,7 +157,7 @@ The cases of similarity with a score of 1 are handled. It is observed that for t
 
 ---
 
-## Test Results 📊
+## Test Results📊
 
 Calculate the average number of calls to the distance calculation function for the two search methods.
 
