@@ -35,6 +35,12 @@ This program uses the MapReduce model to count words in a set of documents. The 
 ### Result:
 The output will be a file containing the word counts for each document.
 
+<p align="center">
+  <img src="ex1.png" alt="Example 1: Words Count" width="200">
+  <br>
+  <em>Example 1: Words Count</em>
+</p>
+
 ---
 
 ## Construction of the Inverted Index 🔄
