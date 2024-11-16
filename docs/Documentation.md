@@ -128,6 +128,13 @@ Using the previous database, search for similar elements for a given element by 
 
 ### Solution:
 The coefficients `A` and `B` are saved in `hash_coefficients.txt` and are used for the `search_lsh()` function:
+
+<p align="center">
+  <img src="ex5.png" alt="Example 5: " width="500">
+  <br>
+  <em>Example 5: A & B Coefficients</em>
+</p>
+
 1. **Setting Parameters and Hash Functions**: The necessary parameters for the hash functions and the coefficients `A` and `B` are defined. Functions for parsing input content, calculating custom hash values, calculating MinHash signatures, and creating groups based on LSH signatures are also defined.
 2. **`get_content()` Function**: This function is used to obtain the content (MinHash bands) for a specific homework and student from the `features.db` database.
 3. **`create_groups()` Function**: This function groups documents that have the same signatures into the same bands.
