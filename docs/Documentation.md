@@ -60,7 +60,7 @@ The index is typically built by processing each document in the collection, toke
 The `inverted.db` database will contain entries showing which documents contain each n-gram.
 
 <p align="center">
-  <img src="ex2.png" alt="Example 2: Database" width="100">
+  <img src="ex2.png" alt="Example 2: Database" width="500">
   <br>
   <em>Example 2: Database</em>
 </p>
