@@ -1,4 +1,5 @@
-# 
+# 🔎Machine Learning Search🔍
+
 
 In this project, we will use the database `features.db` to search for similar items using the inverted index and locality-sensitive hashing (LSH) techniques.
 
@@ -7,12 +8,12 @@ Note: Due to privacy policies, I am not allowed to post the dataset publicly.
 ---
 
 ## Table of Contents 📋
-1. [Familiarization with Map-Reduce 🔄](#1-familiarization-with-map-reduce)
-2. [Constructing the Inverted Index 🔍](#2-constructing-the-inverted-index)
-3. [Searching the Inverted Index 🔎](#3-searching-the-inverted-index)
-4. [Constructing LSH Groups 🧩](#4-constructing-lsh-groups)
-5. [Searching with LSH 🔑](#5-searching-with-lsh)
-6. [Counting Function Calls 🧮](#6-counting-function-calls)
+1. [Familiarization with Map-Reduce](#1-familiarization-with-map-reduce-)
+2. [Constructing the Inverted Index](#2-constructing-the-inverted-index-)
+3. [Searching the Inverted Index](#3-searching-the-inverted-index-)
+4. [Constructing LSH Groups](#4-constructing-lsh-groups-)
+5. [Searching with LSH](#5-searching-with-lsh-)
+6. [Counting Function Calls](#6-counting-function-calls-)
 
 ---
 
