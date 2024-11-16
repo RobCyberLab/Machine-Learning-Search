@@ -3,12 +3,12 @@
 ## Table of Contents📚
 
 1. [Introduction](#introduction)
-2. [Familiarization with Map-Reduce](#familiarization-with-map-reduce-)
-3. [Construction of the Inverted Index](#construction-of-the-inverted-index-)
-4. [Search in the Inverted Index](#search-in-the-inverted-index-)
-5. [Construction of Groups Based on LSH](#construction-of-groups-based-on-lsh-)
-6. [Search Based on LSH](#search-based-on-lsh-)
-7. [Test Results](#top-results-)
+2. [Familiarization with Map-Reduce](#familiarization-with-map-reduce)
+3. [Construction of the Inverted Index](#construction-of-the-inverted-index)
+4. [Search in the Inverted Index](#search-in-the-inverted-index)
+5. [Construction of Groups Based on LSH](#construction-of-groups-based-on-lsh)
+6. [Search Based on LSH](#search-based-on-lsh)
+7. [Test Results](#top-results)
 
 ---
 
