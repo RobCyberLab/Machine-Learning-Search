@@ -113,6 +113,12 @@ For example, in this lab, LSH is used to find approximate duplicates of homework
 ### Result:
 The table will contain as many entries as there are files. Each band will have 946 entries.
 
+<p align="center">
+  <img src="ex4.png" alt="Example 4: " width="500">
+  <br>
+  <em>Example 4: LSH Table</em>
+</p>
+
 ---
 
 ## Search Based on LSH 🔍
