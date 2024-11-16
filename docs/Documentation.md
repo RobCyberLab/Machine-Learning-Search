@@ -74,10 +74,21 @@ The `inverted.db` database will contain entries showing which documents contain 
 Implement the `search_inv()` function to search for similar elements using the inverted index.
 
 ### Solution:
-The Python code performs a search in an SQLite database for the n-grams specified by the user and writes the results to a text file. Specifically, a function `search_inv(search_text)` is defined, which receives a text representing the searched n-grams and searches for these n-grams in the SQLite database. The user inputs the n-grams via the keyboard (in the form of `["jmp", "movabs", "sub", "add", "or"]`). The n-grams are searched in the database using the `search_inv` function, and the results are written to a file named `result_inverted.txt`, using the UTF-8 codec to handle Unicode characters correctly. If no results are found for the entered n-grams, a corresponding message is written in the file.
+The Python code performs a search in an SQLite database for the n-grams specified by the user and writes the results to a text file. Specifically, a function `search_inv(search_text)` is defined, which receives a text representing the searched n-grams and searches for these n-grams in the SQLite database. The user inputs the n-grams via the keyboard (in the form of `["jne", "pop", "mov", "pop", "ret"]`). The n-grams are searched in the database using the `search_inv` function, and the results are written to a file named `result_inverted.txt`, using the UTF-8 codec to handle Unicode characters correctly. If no results are found for the entered n-grams, a corresponding message is written in the file.
 
 ### Result:
 The output will show the documents containing the searched n-grams.
+
+<p align="center">
+  <img src="ex3.png" alt="Example 3: ["jne", "pop", "mov", "pop", "ret"]" width="500">
+  <br>
+  <em>Example 3: ["jne", "pop", "mov", "pop", "ret"]</em>
+  <br>
+  <br>
+  <img src="ex3.1.png" alt="Example 3: Result Search" width="200">
+  <br>
+  <em>Example 3: Result Search</em>
+</p>
 
 ---
 
