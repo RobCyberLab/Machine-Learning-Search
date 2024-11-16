@@ -8,6 +8,7 @@
 4. [Search in the Inverted Index](#search-in-the-inverted-index-)
 5. [Construction of Groups Based on LSH](#construction-of-groups-based-on-lsh-)
 6. [Search Based on LSH](#search-based-on-lsh-)
+7. [Test Results](#top-results-)
 
 ---
 
@@ -179,6 +180,6 @@ Thus, the average number of calls for the inverted index is approximately **20,9
 **Number of tasks (searches):** \( 141,900 / 30 = 4,730 \)  
 
 Thus, the average number of calls to the distance calculation function for the LSH algorithm is approximately **4,730**.
-**LSH**: Might miss some similarities, as it's more restrictive.
+- **LSH**: Might miss some similarities, as it's more restrictive.
 
 ---
